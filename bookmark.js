@@ -24,4 +24,4 @@ javascript:(function(){
         overlay.style.top = r.top + 'px';
         overlay.style.left = r.left + 'px';
     };
-})();
+})(); 
