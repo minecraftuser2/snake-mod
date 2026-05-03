@@ -12,7 +12,7 @@ javascript:(function(){
     overlay.style.left = rect.left + 'px';
     overlay.style.width = rect.width + 'px';
     overlay.style.height = rect.height + 'px';
-    overlay.style.backgroundColor = 'rgba(0, 255, 0, 0.25)'; /* 25% Green */
+    overlay.style.backgroundColor = 'rgba(0, 255, 0, 0.25)';
     overlay.style.pointerEvents = 'none'; /* Lets you click through it to play */
     overlay.style.zIndex = '99999';
     
@@ -24,4 +24,4 @@ javascript:(function(){
         overlay.style.top = r.top + 'px';
         overlay.style.left = r.left + 'px';
     };
-})(); 
+})();
